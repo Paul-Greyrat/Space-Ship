@@ -1,0 +1,29 @@
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+
+# User-specific
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Visual Studio
+.vscode/
+
+# Rider
+.idea/
