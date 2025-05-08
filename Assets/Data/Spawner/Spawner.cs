@@ -5,11 +5,22 @@ using UnityEngine;
 
 public abstract class Spawner : GreyMonoBehaviour
 {
+    [SerializeField] protected Transform hodler;
     [SerializeField] protected List<Transform> prefabs;
+    [SerializeField] protected List<Transform> poolOjbs;
 
     protected override void LoadComponents()
     {
         this.LoadPrefabs();
+        this.LoadHoder();
+    }
+
+    protected virtual void LoadHoder()
+    {
+        if (this.hodler != null) return;
+        this.hodler = transform.Find("Hodler");
+        Debug.Log(transform.name + ":Load Hodler", gameObject);
+
     }
 
     protected virtual void LoadPrefabs()
@@ -44,7 +55,34 @@ public abstract class Spawner : GreyMonoBehaviour
     public virtual Transform Spawn( String prefabName, Vector3 spawnPos, Quaternion rotation)
     {
         Transform prefab = this.GetPrefabByName(prefabName);
-        Transform newPrefab = Instantiate(prefab, spawnPos, rotation);
+
+        Transform newPrefab = this.GetOjbFromPool(prefab);
+        newPrefab.SetPositionAndRotation(spawnPos, rotation);
+
+        newPrefab.parent = this.hodler;
         return newPrefab;
     }
+
+    public virtual Transform GetOjbFromPool(Transform prefab)
+    {
+        foreach(Transform poolObj in this.poolOjbs)
+        {
+            if(poolObj.name == prefab.name)
+            {
+                this.poolOjbs.Remove(poolObj);
+                return poolObj;
+            }
+        }
+
+        Transform newPrefab = Instantiate(prefab);
+        newPrefab.name = prefab.name;
+        return newPrefab;
+    }
+
+    public virtual void Despawn(Transform Obj)
+    {
+        this.poolOjbs.Add(Obj);
+        Obj.gameObject.SetActive(false);
+    }
+
 }

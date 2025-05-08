@@ -2,9 +2,15 @@ using UnityEngine;
 
 public class GreyMonoBehaviour : MonoBehaviour
 {
+
+    protected virtual void Start()
+    {
+        //For override
+    }
     protected virtual void Reset()
     {
         this.LoadComponents();
+        this.ResetValues();
     }
 
     protected virtual void Awake()
@@ -13,6 +19,11 @@ public class GreyMonoBehaviour : MonoBehaviour
     }
 
     protected virtual void LoadComponents()
+    {
+        //For override
+    }
+
+        protected virtual void ResetValues()
     {
         //For override
     }

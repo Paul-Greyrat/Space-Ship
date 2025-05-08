@@ -1,13 +1,11 @@
 using UnityEngine;
 
-public class BulletFly : MonoBehaviour
+public class BulletFly : ParentFly
 {
-    [SerializeField] protected int speed = 1;
-    [SerializeField] protected Vector3 direction = Vector3.right;
-
-    void FixedUpdate()
+    protected override void ResetValues()
     {
-        transform.parent.Translate(this.direction * this.speed * Time.deltaTime);
-        
+        base.ResetValues();
+        this.speed = 7;
     }
 }
+    
