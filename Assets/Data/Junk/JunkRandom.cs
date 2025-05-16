@@ -5,6 +5,7 @@ public class JunkRandom : GreyMonoBehaviour
 {
     [SerializeField] protected JunkCtrl junkCtrl;
 
+
     protected override void LoadComponents()
     {
         base.LoadComponents();
@@ -25,7 +26,8 @@ public class JunkRandom : GreyMonoBehaviour
 
     protected virtual void JunkSpawning()
     {
-        Vector3 pos = transform.position;
+        Transform randPoint = this.junkCtrl.SpawnPoints.GetRandom();
+        Vector3 pos = randPoint.position;
         quaternion rot = transform.rotation;
         Transform Ojb = this.junkCtrl.JunkSpawner.Spawn(JunkSpawner.MeteroritetOne, pos, rot);
         Ojb.gameObject.SetActive(true);

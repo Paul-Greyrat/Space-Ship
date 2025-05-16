@@ -23,7 +23,11 @@ public class GreyMonoBehaviour : MonoBehaviour
         //For override
     }
 
-        protected virtual void ResetValues()
+    protected virtual void ResetValues()
+    {
+        //For override
+    }
+    protected virtual void OnEnable()
     {
         //For override
     }

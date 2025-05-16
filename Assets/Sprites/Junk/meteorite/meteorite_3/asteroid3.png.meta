@@ -1,0 +1,1317 @@
+fileFormatVersion: 2
+guid: 0d1eece0f53e018488ca5141d2cb5727
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2674403585074035621
+    second: asteroid3_0
+  - first:
+      213: -8685217867102828436
+    second: asteroid3_1
+  - first:
+      213: 7384159049765902677
+    second: asteroid3_2
+  - first:
+      213: -7652666114803859039
+    second: asteroid3_3
+  - first:
+      213: -6443954216943340226
+    second: asteroid3_4
+  - first:
+      213: 4631596295947106339
+    second: asteroid3_5
+  - first:
+      213: -2572251215724612846
+    second: asteroid3_6
+  - first:
+      213: -776471109942875412
+    second: asteroid3_7
+  - first:
+      213: 5401335784248012025
+    second: asteroid3_8
+  - first:
+      213: -2044477003625196105
+    second: asteroid3_9
+  - first:
+      213: 1561548567574011957
+    second: asteroid3_10
+  - first:
+      213: -4070619211885847849
+    second: asteroid3_11
+  - first:
+      213: -3424963588659510136
+    second: asteroid3_12
+  - first:
+      213: -7242515814855466250
+    second: asteroid3_13
+  - first:
+      213: -4850904618515335771
+    second: asteroid3_14
+  - first:
+      213: 2800606683917983983
+    second: asteroid3_15
+  - first:
+      213: -3719779991183757665
+    second: asteroid3_16
+  - first:
+      213: -1126116270940857292
+    second: asteroid3_17
+  - first:
+      213: 8569963784303612781
+    second: asteroid3_18
+  - first:
+      213: 7261534013763904101
+    second: asteroid3_19
+  - first:
+      213: 1473598373580981529
+    second: asteroid3_20
+  - first:
+      213: -6871508860285588033
+    second: asteroid3_21
+  - first:
+      213: -4836067700740793348
+    second: asteroid3_22
+  - first:
+      213: 1727245868612085228
+    second: asteroid3_23
+  - first:
+      213: -4985663011899921610
+    second: asteroid3_24
+  - first:
+      213: 5623979224825740750
+    second: asteroid3_25
+  - first:
+      213: -2321918758118998189
+    second: asteroid3_26
+  - first:
+      213: 7766177703727481937
+    second: asteroid3_27
+  - first:
+      213: 8418929426228551102
+    second: asteroid3_28
+  - first:
+      213: 2856585100878504710
+    second: asteroid3_29
+  - first:
+      213: 5495398307187763278
+    second: asteroid3_30
+  - first:
+      213: 8710334595566898196
+    second: asteroid3_31
+  - first:
+      213: -4276901157342319093
+    second: asteroid3_32
+  - first:
+      213: -1090374415734298104
+    second: asteroid3_33
+  - first:
+      213: 3586654436479591266
+    second: asteroid3_34
+  - first:
+      213: 1632535137697050480
+    second: asteroid3_35
+  - first:
+      213: -9198488365286310396
+    second: asteroid3_36
+  - first:
+      213: -2352246609537524845
+    second: asteroid3_37
+  - first:
+      213: 7774338795450162964
+    second: asteroid3_38
+  - first:
+      213: -528208181368354774
+    second: asteroid3_39
+  - first:
+      213: -1389479564081308245
+    second: asteroid3_40
+  - first:
+      213: -4138743281846292383
+    second: asteroid3_41
+  - first:
+      213: -6714691964149039827
+    second: asteroid3_42
+  - first:
+      213: 325149661285227381
+    second: asteroid3_43
+  - first:
+      213: 5822624603943834019
+    second: asteroid3_44
+  - first:
+      213: -6290678939810197890
+    second: asteroid3_45
+  - first:
+      213: -5507937428876215078
+    second: asteroid3_46
+  - first:
+      213: 3935989483203146649
+    second: asteroid3_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: asteroid3_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 786
+        width: 106
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5481a5eb1c92ead0800000000000000
+      internalID: -2674403585074035621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asteroid3_1
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 787
+        width: 109
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c68c57abd58e77780800000000000000
+      internalID: -8685217867102828436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asteroid3_2
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 787
+        width: 110
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5595846688dc97660800000000000000
+      internalID: 7384159049765902677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asteroid3_3
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 786
+        width: 110
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a18272d6b44cc590800000000000000
+      internalID: -7652666114803859039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asteroid3_4
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 786
+        width: 110
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e35363ef7c97296a0800000000000000
+      internalID: -6443954216943340226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asteroid3_5
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 786
+        width: 109
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32831faba4cb64040800000000000000
+      internalID: 4631596295947106339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asteroid3_6
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 786
+        width: 109
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 213faadc5278d4cd0800000000000000
+      internalID: -2572251215724612846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asteroid3_7
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 660
+        width: 108
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea6081b3ab6935f0800000000000000
+      internalID: -776471109942875412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asteroid3_8
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 662
+        width: 107
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fc65bc374665fa40800000000000000
+      internalID: 5401335784248012025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asteroid3_9
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 662
+        width: 106
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b5177f4ffe80a3e0800000000000000
+      internalID: -2044477003625196105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asteroid3_10
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 660
+        width: 106
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 530e4c5162cbba510800000000000000
+      internalID: 1561548567574011957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asteroid3_11
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 657
+        width: 107
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dad9a3d4614287c0800000000000000
+      internalID: -4070619211885847849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asteroid3_12
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 655
+        width: 107
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8848d4923c51870d0800000000000000
+      internalID: -3424963588659510136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asteroid3_13
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 654
+        width: 106
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f224672d3a6d7b90800000000000000
+      internalID: -7242515814855466250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asteroid3_14
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 524
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a5771e53ff1eacb0800000000000000
+      internalID: -4850904618515335771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asteroid3_15
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 524
+        width: 103
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe02486d0f0cdd620800000000000000
+      internalID: 2800606683917983983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asteroid3_16
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 524
+        width: 101
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9ee2e66ecfa06cc0800000000000000
+      internalID: -3719779991183757665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asteroid3_17
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 525
+        width: 99
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43c58cec73b3f50f0800000000000000
+      internalID: -1126116270940857292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asteroid3_18
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 527
+        width: 99
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d63116df7a0aee670800000000000000
+      internalID: 8569963784303612781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asteroid3_19
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 529
+        width: 97
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56260d656b626c460800000000000000
+      internalID: 7261534013763904101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asteroid3_20
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 530
+        width: 97
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91543eec9e5437410800000000000000
+      internalID: 1473598373580981529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asteroid3_21
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 403
+        width: 98
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbd6abf291f73a0a0800000000000000
+      internalID: -6871508860285588033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asteroid3_22
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 402
+        width: 98
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfbda9b7c06d2ecb0800000000000000
+      internalID: -4836067700740793348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asteroid3_23
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 402
+        width: 100
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce5626657f868f710800000000000000
+      internalID: 1727245868612085228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asteroid3_24
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 403
+        width: 102
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63ba6e5e7ed5fcab0800000000000000
+      internalID: -4985663011899921610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asteroid3_25
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 402
+        width: 103
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecd3aefce436c0e40800000000000000
+      internalID: 5623979224825740750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asteroid3_26
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 403
+        width: 104
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35f30090133e6cfd0800000000000000
+      internalID: -2321918758118998189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asteroid3_27
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 404
+        width: 104
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1544c3d797107cb60800000000000000
+      internalID: 7766177703727481937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asteroid3_28
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 278
+        width: 105
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebd9f6f25bb06d470800000000000000
+      internalID: 8418929426228551102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asteroid3_29
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 277
+        width: 105
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6036980b301a4a720800000000000000
+      internalID: 2856585100878504710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asteroid3_30
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 275
+        width: 103
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e48a53ff4a3934c40800000000000000
+      internalID: 5495398307187763278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asteroid3_31
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 274
+        width: 101
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41c8f835a2351e870800000000000000
+      internalID: 8710334595566898196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asteroid3_32
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 274
+        width: 100
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0e6721be0565a4c0800000000000000
+      internalID: -4276901157342319093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asteroid3_33
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 274
+        width: 99
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80aabf5fe363ed0f0800000000000000
+      internalID: -1090374415734298104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asteroid3_34
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 273
+        width: 99
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 263e172053b56c130800000000000000
+      internalID: 3586654436479591266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asteroid3_35
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 143
+        width: 98
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07fa6c5ee0ee7a610800000000000000
+      internalID: 1632535137697050480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asteroid3_36
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 141
+        width: 97
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40ebb844197685080800000000000000
+      internalID: -9198488365286310396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asteroid3_37
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 139
+        width: 97
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39b166edb242b5fd0800000000000000
+      internalID: -2352246609537524845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asteroid3_38
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 137
+        width: 97
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f585ab1fff3eb60800000000000000
+      internalID: 7774338795450162964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asteroid3_39
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 136
+        width: 98
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a288516257d6ba8f0800000000000000
+      internalID: -528208181368354774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asteroid3_40
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 136
+        width: 98
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: badd440c2b397bce0800000000000000
+      internalID: -1389479564081308245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asteroid3_41
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 136
+        width: 96
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1607405c9ea3096c0800000000000000
+      internalID: -4138743281846292383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asteroid3_42
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 10
+        width: 96
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2df9bc0c3f90d2a0800000000000000
+      internalID: -6714691964149039827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asteroid3_43
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 11
+        width: 97
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57b9ebbe4e9238400800000000000000
+      internalID: 325149661285227381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asteroid3_44
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 11
+        width: 99
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a1958a4a3e1ec050800000000000000
+      internalID: 5822624603943834019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asteroid3_45
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 12
+        width: 100
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7e059c65d403b8a0800000000000000
+      internalID: -6290678939810197890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asteroid3_46
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 13
+        width: 102
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adc31ca3710ef83b0800000000000000
+      internalID: -5507937428876215078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asteroid3_47
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 16
+        width: 105
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9933ff9c4917f9630800000000000000
+      internalID: 3935989483203146649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
