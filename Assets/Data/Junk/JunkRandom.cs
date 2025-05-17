@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class JunkRandom : GreyMonoBehaviour
 {
-    [SerializeField] protected JunkCtrl junkCtrl;
+    [SerializeField] protected JunkSpawnerCtrl junkSpawnerCtrl;
 
 
     protected override void LoadComponents()
@@ -14,9 +14,9 @@ public class JunkRandom : GreyMonoBehaviour
 
     protected virtual void LoadJunkCtrl()
     {
-        if (this.junkCtrl != null) return;
-        this.junkCtrl = GetComponent<JunkCtrl>();
-        Debug.Log(transform.name + " LoadJunkCtrl" , gameObject);
+        if (this.junkSpawnerCtrl != null) return;
+        this.junkSpawnerCtrl = GetComponent<JunkSpawnerCtrl>();
+        Debug.Log(transform.name + " junkSpawnerCtrl" , gameObject);
     }
 
     protected override void Start()
@@ -26,10 +26,10 @@ public class JunkRandom : GreyMonoBehaviour
 
     protected virtual void JunkSpawning()
     {
-        Transform randPoint = this.junkCtrl.SpawnPoints.GetRandom();
+        Transform randPoint = this.junkSpawnerCtrl.SpawnPoints.GetRandom();
         Vector3 pos = randPoint.position;
         quaternion rot = transform.rotation;
-        Transform Ojb = this.junkCtrl.JunkSpawner.Spawn(JunkSpawner.MeteroritetOne, pos, rot);
+        Transform Ojb = this.junkSpawnerCtrl.JunkSpawner.Spawn(JunkSpawner.MeteroritetOne, pos, rot);
         Ojb.gameObject.SetActive(true);
         Invoke(nameof(this.JunkSpawning), 1f);
 
