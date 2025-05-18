@@ -25,7 +25,7 @@ public class JunkSpawnerCtrl : GreyMonoBehaviour
     protected virtual void LoadSpawnPoints()
     {
         if( this.spawnPoints != null) return;
-        this.spawnPoints = FindObjectOfType<SpawnPoints>();
+        this.spawnPoints = FindAnyObjectByType<SpawnPoints>();
         Debug.Log(transform.name + " :LoadSpawnPoints " , gameObject);
     }
 }

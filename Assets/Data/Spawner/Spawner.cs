@@ -1,11 +1,14 @@
 using System;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using Unity.VisualScripting;
 using UnityEngine;
 
 public abstract class Spawner : GreyMonoBehaviour
 {
     [SerializeField] protected Transform hodler;
+    [SerializeField] protected int spawndCount = 0;
+    public int SpawndCount { get => this.spawndCount; }
     [SerializeField] protected List<Transform> prefabs;
     [SerializeField] protected List<Transform> poolOjbs;
 
@@ -27,17 +30,17 @@ public abstract class Spawner : GreyMonoBehaviour
     {
         if (this.prefabs.Count > 0) return;
         Transform PrefabsObj = this.transform.Find("Prefabs");
-        foreach(Transform prefab in PrefabsObj)
+        foreach (Transform prefab in PrefabsObj)
         {
             this.prefabs.Add(prefab);
         }
         this.Hideprefabs();
-        Debug.Log(transform.name + ": Load Prefabs",gameObject);
+        Debug.Log(transform.name + ": Load Prefabs", gameObject);
     }
 
     protected virtual void Hideprefabs()
     {
-        foreach(Transform prefab in this.prefabs)
+        foreach (Transform prefab in this.prefabs)
         {
             prefab.gameObject.SetActive(false);
         }
@@ -45,29 +48,34 @@ public abstract class Spawner : GreyMonoBehaviour
 
     public virtual Transform GetPrefabByName(String prefabName)
     {
-        foreach(Transform prefab in this.prefabs)
+        foreach (Transform prefab in this.prefabs)
         {
-            if(prefab.name == prefabName) return prefab;
+            if (prefab.name == prefabName) return prefab;
         }
         Debug.LogWarning("prefab not found:" + prefabName);
         return null;
     }
-    public virtual Transform Spawn( String prefabName, Vector3 spawnPos, Quaternion rotation)
+    public virtual Transform Spawn(String prefabName, Vector3 spawnPos, Quaternion rotation)
     {
         Transform prefab = this.GetPrefabByName(prefabName);
+        return this.Spawn(prefab, spawnPos, rotation);
+    }
 
+    public virtual Transform Spawn(Transform prefab, Vector3 spawnPos, Quaternion rotation)
+    {
         Transform newPrefab = this.GetOjbFromPool(prefab);
         newPrefab.SetPositionAndRotation(spawnPos, rotation);
 
         newPrefab.parent = this.hodler;
+        this.spawndCount++;
         return newPrefab;
     }
-
+    
     public virtual Transform GetOjbFromPool(Transform prefab)
     {
-        foreach(Transform poolObj in this.poolOjbs)
+        foreach (Transform poolObj in this.poolOjbs)
         {
-            if(poolObj.name == prefab.name)
+            if (poolObj.name == prefab.name)
             {
                 this.poolOjbs.Remove(poolObj);
                 return poolObj;
@@ -83,6 +91,13 @@ public abstract class Spawner : GreyMonoBehaviour
     {
         this.poolOjbs.Add(Obj);
         Obj.gameObject.SetActive(false);
+        this.spawndCount--;
+    }
+
+    public virtual Transform RandomPrefab()
+    {
+        int rand = UnityEngine.Random.Range(0, this.prefabs.Count);
+        return this.prefabs[rand];
     }
 
 }

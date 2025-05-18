@@ -24,7 +24,7 @@ public class GameCtrl : GreyMonoBehaviour
     protected virtual void LoadMainCamera()
     {
         if (this.mainCamera != null) return;
-        this.mainCamera = FindObjectOfType<Camera>();
+        this.mainCamera = FindAnyObjectByType<Camera>();
         Debug.Log(transform.name + " Loaded Main Camera: ", gameObject);
     }
 }

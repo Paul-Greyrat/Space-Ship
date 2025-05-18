@@ -3,6 +3,7 @@ using UnityEngine;
 public class JunkDameRecevier : DamageRecevier
 {
     [SerializeField] protected JunkCtrl junkCtrl;
+    public JunkCtrl JunkCtrl => this.junkCtrl;
 
     protected override void LoadComponents()
     {
@@ -21,5 +22,11 @@ public class JunkDameRecevier : DamageRecevier
     {
         base.OnDead();
         this.junkCtrl.JunkDespawn.DespawnObject();
+    }
+
+    public override void Reborn()
+    {
+        this.hpMax = this.junkCtrl.JunkSO.hpMax;
+        base.Reborn();
     }
 }

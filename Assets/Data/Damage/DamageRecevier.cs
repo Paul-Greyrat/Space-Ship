@@ -8,7 +8,7 @@ public class DamageRecevier : GreyMonoBehaviour
     [SerializeField] protected SphereCollider sphereCollider;
     [SerializeField] protected int hp = 1;
     [SerializeField] protected int hpMax = 10;
-    [SerializeField] protected bool ISDead = false;
+    [SerializeField] protected bool isDead = false;
 
     protected override void Start()
     {
@@ -31,12 +31,13 @@ public class DamageRecevier : GreyMonoBehaviour
         Debug.Log(transform.name + " Loaded SphereCollier");
     }
 
-    protected virtual void Reborn()
+    public virtual void Reborn()
     {
         this.hp = this.hpMax;
+        this.isDead = false;
     }
 
-    protected virtual void Add(int add)
+    public virtual void Add(int add)
     {
         this.hp += add;
         if (this.hp > this.hpMax) this.hp = this.hpMax;
@@ -58,7 +59,7 @@ public class DamageRecevier : GreyMonoBehaviour
     protected virtual void CheckIsDead()
     {
         if (!this.IsDead()) return;
-        this.ISDead = true;
+        this.isDead = true;
         this.OnDead();
     }
 
