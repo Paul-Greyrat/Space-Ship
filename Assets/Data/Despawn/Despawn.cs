@@ -13,7 +13,7 @@ public abstract class Despawn : GreyMonoBehaviour
         this.DespawnObject();
     }
 
-    protected virtual void DespawnObject()
+    public virtual void DespawnObject()
     {
         Destroy(transform.parent.gameObject);
     }

@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class DamegeSender : GreyMonoBehaviour
 {
-    [SerializeField] protected float damage = 1;
+    [SerializeField] protected int damage = 1;
 
     public virtual void Send(Transform obj)
     {
@@ -15,11 +15,5 @@ public class DamegeSender : GreyMonoBehaviour
     protected virtual void Send(DamageRecevier damageRecevier)
     {
         damageRecevier.Deduct(this.damage);
-        this.DestroyObject();
-    }
-
-    protected virtual void DestroyObject()
-    {
-        Destroy(transform.parent.gameObject);
     }
 }

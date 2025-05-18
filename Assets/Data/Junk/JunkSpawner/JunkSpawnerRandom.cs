@@ -4,6 +4,9 @@ using UnityEngine;
 public class JunkRandom : GreyMonoBehaviour
 {
     [SerializeField] protected JunkSpawnerCtrl junkSpawnerCtrl;
+    [SerializeField] protected float RandomDelay = 1f;
+    [SerializeField] protected float RandomTimer = 0f;
+    [SerializeField] protected float RandomLimit = 9f;
 
 
     protected override void LoadComponents()
