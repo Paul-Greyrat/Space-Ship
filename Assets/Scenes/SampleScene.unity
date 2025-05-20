@@ -1897,7 +1897,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1670754138}
-  - component: {fileID: 1670754137}
+  - component: {fileID: 1670754139}
   m_Layer: 0
   m_Name: FXSpawner
   m_TagString: Untagged
@@ -1905,24 +1905,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1670754137
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1670754136}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 112c11b62818d8e4388bd3b49f51286e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hodler: {fileID: 869403957}
-  spawndCount: 0
-  prefabs:
-  - {fileID: 0}
-  - {fileID: 0}
-  poolOjbs: []
 --- !u!4 &1670754138
 Transform:
   m_ObjectHideFlags: 0
@@ -1940,6 +1922,22 @@ Transform:
   - {fileID: 869403957}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1670754139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670754136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b967d7199c0a8294ba2b5f85e8ccd00c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hodler: {fileID: 0}
+  spawndCount: 0
+  prefabs: []
+  poolOjbs: []
 --- !u!1 &1694728943
 GameObject:
   m_ObjectHideFlags: 0

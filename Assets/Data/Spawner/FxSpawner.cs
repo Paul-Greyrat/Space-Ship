@@ -8,6 +8,9 @@ public class FxSpawner : Spawner
     public static string FxOne = "Fx 1";
     public static string FxTwo = "Fx 2";
 
+    public static string FxThree = "Fx 3";
+
+
     
 
     protected override void Awake()
