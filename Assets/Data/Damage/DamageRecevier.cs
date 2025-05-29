@@ -15,7 +15,7 @@ public class DamageRecevier : GreyMonoBehaviour
         base.Start();
         this.Reborn();
     }
-
+ 
     protected override void LoadComponents()
     {
         base.LoadComponents();
